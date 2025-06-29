@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23fff' stroke='%23333' stroke-width='8'/%3E%3Crect x='30' y='30' width='40' height='25' rx='5' fill='%238B4513'/%3E%3Crect x='35' y='35' width='30' height='2' fill='%23654321'/%3E%3Crect x='35' y='40' width='30' height='2' fill='%23654321'/%3E%3Crect x='35' y='45' width='30' height='2' fill='%23654321'/%3E%3Ccircle cx='40' cy='70' r='8' fill='%23FFF'/%3E%3Ccircle cx='60' cy='70' r='8' fill='%23FFF'/%3E%3Ctext x='40' y='75' font-family='Arial' font-size='12' font-weight='bold' text-anchor='middle'%3E1%3C/text%3E%3Ctext x='60' y='75' font-family='Arial' font-size='12' font-weight='bold' text-anchor='middle'%3E2%3C/text%3E%3C/svg%3E" />
+    
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Restaurant Manager -JosCarRub-</title>
+</head>
+<body class="modo">
+    <div class="container-fluid py-4">
+        <div class="row mb-4">
+            <div class="col-12 text-center">
+                <h1 class="display-4 text-black fw-bold mb-0">Restaurant Manager</h1>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center g-3">
+            <!-- Panel de Mesas -->
+            <div class="col-xl-4 col-lg-6 col-md-8 col-12">
+                <div id="mesas" class="panel">
+                    <div class="mb-3">
+                        <h1 class="h3 fw-bold text-dark mb-4">Mesas</h1>
+                    </div>
+                    
+                    <div class="row g-2">
+                        <div class="col-4 d-flex justify-content-center">
+                            <h1><span class="mesa libre">1</span></h1>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center">
+                            <h1><span class="mesa libre">2</span></h1>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center">
+                            <h1><span class="mesa libre">3</span></h1>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center">
+                            <h1><span class="mesa libre">4</span></h1>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center">
+                            <h1><span class="mesa libre">5</span></h1>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center">
+                            <h1><span class="mesa libre">6</span></h1>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center">
+                            <h1><span class="mesa libre">7</span></h1>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center">
+                            <h1><span class="mesa libre">8</span></h1>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center">
+                            <h1><span class="mesa libre">9</span></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Panel de Controles -->
+            <div class="col-xl-4 col-lg-6 col-md-8 col-12">
+                <div id="controles" class="panel">
+                    <div class="mb-3">
+                        <h1 class="h3 fw-bold text-dark mb-4">Controles</h1>
+                    </div>
+                    
+                    <form id="frmControles" name="frmControles" class="mb-4">
+                        <div class="mb-3">
+                            <label class="form-label">
+                                <h4 class="h6 fw-semibold mb-2">Categoría:</h4>
+                            </label>
+                            <select name="categorias" class="form-select"></select>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label class="form-label">
+                                <h4 class="h6 fw-semibold mb-2">Productos:</h4>
+                            </label>
+                            <select name="productos" class="form-select"></select>
+                        </div>
+                    </form>
+                    
+                    <div class="mb-3">
+                        <h4 class="h6 fw-semibold mb-3">Unidades:</h4>
+                    </div>
+                    
+                    <div id="teclado" class="d-flex flex-column align-items-center">
+                        <div class="d-flex gap-1 mb-1">
+                            <input type="button" class="tecla" value="1" />
+                            <input type="button" class="tecla" value="2" />
+                            <input type="button" class="tecla" value="3" />
+                        </div>
+                        <div class="d-flex gap-1 mb-1">
+                            <input type="button" class="tecla" value="4" />
+                            <input type="button" class="tecla" value="5" />
+                            <input type="button" class="tecla" value="6" />
+                        </div>
+                        <div class="d-flex gap-1">
+                            <input type="button" class="tecla" value="7" />
+                            <input type="button" class="tecla" value="8" />
+                            <input type="button" class="tecla" value="9" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Panel de Cuenta -->
+            <div class="col-xl-4 col-lg-6 col-md-8 col-12">
+                <div id="cuenta" class="panel">
+                    <div class="mb-3">
+                        <h1 class="h3 fw-bold text-dark mb-4">Cuenta</h1>
+                    </div>
+                    
+                   
+                    <div class="text-center text-muted">
+                        <p class="mb-0">Selecciona una mesa para ver la cuenta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/class.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
