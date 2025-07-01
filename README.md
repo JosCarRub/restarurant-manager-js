@@ -14,11 +14,7 @@ A modern, responsive web application for restaurant table and order management. 
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices
 
 ## 🛠️ Technologies Used
-<p align="center">
-  <a href="#">
-    <img src="https://skillicons.dev/icons?i=js,html,css,bootstrap" alt="My Skills" />
-  </a>
-</p> <br>
+
 
 - **Frontend**: HTML5, CSS3, JavaScript (ES6+)
 - **Styling**: Bootstrap 5.3.0, Custom CSS with modern gradients and animations
