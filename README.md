@@ -1,4 +1,4 @@
-# Restaurant Manager
+# Restaurant Manager <img src="https://skillicons.dev/icons?i=js" alt="My Skills" />
 
 A modern, responsive web application for restaurant table and order management. Built with vanilla JavaScript, HTML5, and CSS3 with Bootstrap styling.
 
@@ -14,6 +14,11 @@ A modern, responsive web application for restaurant table and order management. 
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices
 
 ## 🛠️ Technologies Used
+<p align="center">
+  <a href="#">
+    <img src="https://skillicons.dev/icons?i=js,html,css,bootstrap" alt="My Skills" />
+  </a>
+</p> <br>
 
 - **Frontend**: HTML5, CSS3, JavaScript (ES6+)
 - **Styling**: Bootstrap 5.3.0, Custom CSS with modern gradients and animations
