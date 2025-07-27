@@ -89,7 +89,7 @@ The application adapts to different screen sizes:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/restaurant-manager.git
+   git clone https://github.com/JosCarRub/restaurant-manager.git
    ```
 
 2. **Navigate to project directory**
@@ -130,5 +130,3 @@ The application is built with vanilla JavaScript and requires no build process o
 - Individual item modification controls
 
 ---
-
-*Why no one forgets where it all started*
